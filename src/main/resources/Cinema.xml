@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cinema>
+    <Film>
+        <Title>Inception</Title>
+        <Year>2010</Year>
+        <Genre>Science Fiction</Genre>
+        <Director>Christopher Nolan</Director>
+        <MainActor>Leonardo DiCaaprio</MainActor>
+    </Film>
+
+    <Film>
+        <Title>Avatar</Title>
+        <Year>2009</Year>
+        <Genre>Action</Genre>
+        <Director>James Cameron</Director>
+        <MainActor>Sam Worthington</MainActor>
+    </Film>
+</Cinema>

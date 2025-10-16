@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Root element -->
+    <xs:element name="Cinema">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Each Cinema contains one or more Film elements -->
+                <xs:element name="Film" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Title" type="xs:string"/>
+                            <xs:element name="Year" type="xs:integer"/>
+                            <xs:element name="Genre" type="xs:string"/>
+                            <xs:element name="Director" type="xs:string"/>
+                            <xs:element name="MainActor" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
